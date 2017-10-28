@@ -1,4 +1,4 @@
-package io.github.shafeenr.hackerrank;
+/*package io.github.shafeenr.hackerrank;
 
 import java.time.LocalDate;
 import java.util.Scanner;
@@ -16,3 +16,4 @@ public class DateAndTime {
         System.out.println(dateAndTime.getDayOfWeek());
     }
 }
+*/
