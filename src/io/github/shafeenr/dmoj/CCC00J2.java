@@ -16,7 +16,7 @@ public class CCC00J2 {
             String newString = "";
 
             for (int x = oldString.length() - 1; x >= 0; x--) {
-                if (oldString.charAt(x) == '1' || oldString.charAt(x) == '8') {
+                if (oldString.charAt(x) == '0' || oldString.charAt(x) == '1' || oldString.charAt(x) == '8') {
                     newString += oldString.charAt(x);
                 } else if (oldString.charAt(x) == '6') {
                     newString += '9';
