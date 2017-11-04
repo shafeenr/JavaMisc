@@ -22,8 +22,6 @@ public class Grades {
         int secondMark;
         int thirdMark;
         int fourthMark;
-        
-        int average;
 
         System.out.println("Enter your name: ");
         name = in.nextLine();

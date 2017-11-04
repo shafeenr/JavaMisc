@@ -14,7 +14,7 @@ public class SumOfDigits {
             int x = in.nextInt();
             String eggs = Integer.toString(x);
             for (int i = 0; i < eggs.length(); i++) {
-                sum += Integer.parseInt(Character.toString(eggs.charAt(i)));
+                sum += Character.getNumericValue(eggs.charAt(i));
             }
 
         }
