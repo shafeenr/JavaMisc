@@ -12,7 +12,7 @@ public class ShiftySums {
 
         int result = 0;
 
-        for (int i = 1; i < k + 1; i++) {
+        for (int i = 1; i <= k; i++) {
             result += (int) (n * (Math.pow(10, i)));
         }
 
